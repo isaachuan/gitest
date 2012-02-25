@@ -1,0 +1,1501 @@
+[33mcommit 0bd0c5ff037c7368b2b1827fadc66741d1ed14ed[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Wed Mar 3 13:30:10 2010 -0800
+
+    implement select_existing_objects
+
+[33mcommit 1937a1e49217fc171aa3756424de328e4bd715d7[m
+Author: Chris Wanstrath <chris@ozmm.org>
+Date:   Wed Feb 10 14:29:42 2010 -0800
+
+    Make pure-ruby `ls-tree -r` work with commits
+
+[33mcommit 01f015d1d01a28e24fa31306e32855f0a8421a47[m
+Author: Chris Wanstrath <chris@ozmm.org>
+Date:   Wed Feb 10 13:06:59 2010 -0800
+
+    Ironically, that last commit broke the tests for me.
+
+[33mcommit 3ba490942a7f5b4fd5a9b8552320ce88f23c279d[m
+Author: Scott Taylor <scott@railsnewbie.com>
+Date:   Mon Dec 7 14:25:17 2009 -0500
+
+    Get test suite 100% green
+
+[33mcommit d7d2eb5e6c753077045832f7c319d413fbd6346c[m
+Author: Ryan Tomayko <rtomayko@gmail.com>
+Date:   Mon Feb 8 19:17:44 2010 -0800
+
+    close open files as soon as possible
+
+[33mcommit d731f85a6e3684a4db625fbc03f872958900e963[m
+Author: Ryan Tomayko <rtomayko@gmail.com>
+Date:   Fri Dec 18 09:10:23 2009 -0800
+
+    raise NoSuchPath with no tree in ls_tree_path
+
+[33mcommit 2049a1377bbd9ad8e34a3675100a80c73da75640[m
+Author: Chris Wanstrath <chris@ozmm.org>
+Date:   Wed Feb 10 13:01:19 2010 -0800
+
+    `git ls-tree -r SHA`
+
+[33mcommit 1b38017db24458f7890d8b054298309b96ccc780[m
+Author: Chris Wanstrath <chris@ozmm.org>
+Date:   Thu Jan 28 15:50:11 2010 -0800
+
+    Pass along the options to Real Git on a rev-parse miss
+
+[33mcommit 2f1f63e4e90f4a4722faa7c88244165423e14294[m
+Author: PJ Hyett <pjhyett@gmail.com>
+Date:   Wed Dec 2 00:53:51 2009 -0800
+
+    left out a period
+
+[33mcommit c4c10686450e29ebfe8e0ddd57dc8f6bb4925e7e[m
+Author: PJ Hyett <pjhyett@gmail.com>
+Date:   Tue Dec 1 17:19:57 2009 -0800
+
+    fix description assertion
+
+[33mcommit 5251fd61f6348566226217cd7a76f1e9ffc97841[m
+Author: PJ Hyett <pjhyett@gmail.com>
+Date:   Tue Dec 1 17:19:03 2009 -0800
+
+    add merge commit diff support
+
+[33mcommit 1911fe145970dafda196198836433ad9847e1067[m
+Author: PJ Hyett <pjhyett@gmail.com>
+Date:   Tue Dec 1 17:18:35 2009 -0800
+
+    allow diff to only take one sha
+
+[33mcommit da70719d2b9a46f71543118b116ac24979048b1a[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Oct 27 12:49:38 2009 -0700
+
+    Regenerated gemspec for version 2.0.0
+
+[33mcommit 6c620c2e4862707062a5a11f464d351b32e826f1[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Oct 27 12:45:21 2009 -0700
+
+    Version bump to 2.0.0
+
+[33mcommit ffda974c32426146d206062d0954f9671cfa14bb[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Oct 27 12:44:45 2009 -0700
+
+    update history for 2.0.0 release
+
+[33mcommit 1876fc06e6dfb476e562340d654616a87a4ef519[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Oct 27 12:40:50 2009 -0700
+
+    updates for readme
+
+[33mcommit 18ec70e91691084279d810d49b91da1191ea1fc1[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Oct 27 12:35:43 2009 -0700
+
+    massive whitespace removal
+
+[33mcommit fa4a01c152089b4ebf848b2009930aff5bfa4fbd[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Oct 27 12:29:44 2009 -0700
+
+    fix tests
+
+[33mcommit 4fe0ec01025f27b6899e5dcf7ccdcc6f2f62e863[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Oct 27 12:25:08 2009 -0700
+
+    fix tags
+
+[33mcommit 31639bd9d7cab9f0ffcde5bbcfe5d5ee21bb2b42[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Oct 27 12:24:55 2009 -0700
+
+    change default bareness
+
+[33mcommit 8615b5ff0c59229c34c81aa4fb20a603e47e81a4[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Oct 27 12:24:25 2009 -0700
+
+    remove redundant fs methods
+
+[33mcommit 2613204eed3b32d000a66d52c34d653d1c882b4e[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Oct 27 12:23:36 2009 -0700
+
+    back out work-tree change, it was breaking github
+
+[33mcommit 10476c3e66f554be9af55e09d3c2749f66ed7853[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Thu Aug 27 15:55:23 2009 -0700
+
+    do not fail for stupidity of mime-types in rubygems <= 1.2.0
+
+[33mcommit d8511d32f345485956a7eb0c4dd92ef90b0a9f82[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Mon Aug 3 17:15:52 2009 -0700
+
+    update history
+
+[33mcommit 2e78057fdabc40b7e59d3d09ec6773fe50393aeb[m
+Merge: 7b3b447 b93ec95
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Mon Aug 3 17:11:57 2009 -0700
+
+    Merge branch 'master' into smoke
+
+[33mcommit b93ec95e50959c39e996f1642313e839bdf94039[m
+Author: Chris Wanstrath <chris@ozmm.org>
+Date:   Tue Jul 28 11:41:00 2009 -0700
+
+    Make another attempt to identify new and deleted files in Grit#Diff
+
+[33mcommit 00ed8432eebd575d43de53e35cd73a54fd2c9127[m
+Author: Chris Wanstrath <chris@ozmm.org>
+Date:   Tue Jul 28 10:43:33 2009 -0700
+
+    Ensure RubyGit's diff matches real Git's output
+
+[33mcommit 50128456919b8b68009e23f50c48662c972127de[m
+Author: Chris Wanstrath <chris@ozmm.org>
+Date:   Tue Jul 28 10:25:07 2009 -0700
+
+    Fix RubyGit's diff to detect additions and deletions
+
+[33mcommit fcd9228c20523ac5dfa7bb472e17b77c4570204c[m
+Author: Chris Wanstrath <chris@ozmm.org>
+Date:   Tue Jul 28 10:12:33 2009 -0700
+
+    use a \t to avoid tab => space conversion
+
+[33mcommit 7b3b447bea22d0d671d1001bd7d6fdfbbcbbdea3[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Thu Jul 23 18:32:50 2009 -0700
+
+    add contributing section to readme
+
+[33mcommit c701103859b9814265ef6cd74be0f92e1593c677[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Thu Jul 23 18:25:55 2009 -0700
+
+    have Commit#short_message use first non-empty message line. closes gh-1.
+
+[33mcommit 1af4e641a9d23cf7e92b6f2f7f0ef3535db83b17[m
+Merge: d5cde35 b06e7ff
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Thu Jul 23 18:07:13 2009 -0700
+
+    Merge commit 'b06e7ff41ad95b6fe1dbd08df7530c9d5bf76840' into smoke
+
+[33mcommit d5cde35beba7af31168e7f1871bb469d75952a2c[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Thu Jul 23 17:52:32 2009 -0700
+
+    windows support
+
+[33mcommit 797d75ea954098616b56e714a1162ec43247951b[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Thu Jul 23 17:18:24 2009 -0700
+
+    update history
+
+[33mcommit 0bbd902cbb25928e69e163d8a762ecf13935bd76[m
+Merge: 4e694b9 a88d1d9
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Thu Jul 23 16:45:08 2009 -0700
+
+    Merge commit 'a88d1d96985074db9c37f3f50a45fd089d8b4a12' into smoke
+
+[33mcommit 4e694b9a376c912200d0b15412d93b41ba86f870[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Thu Jul 23 15:21:59 2009 -0700
+
+    further file system abstractions
+
+[33mcommit 82cac1a88e3e8d8d279bc5c67b1908b784e2448d[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Sat Jul 18 11:37:58 2009 -0700
+
+    allow setting of options to false to override true defaults
+
+[33mcommit a88d1d96985074db9c37f3f50a45fd089d8b4a12[m
+Author: Dave Copeland <davetron5000@gmail.com>
+Date:   Sat Jun 20 14:49:10 2009 -0400
+
+    more terse and more correct
+
+[33mcommit 8c4ec1391eb90f666e043219b4b22567d246cc0d[m
+Author: Dave Copeland <davetron5000@gmail.com>
+Date:   Sat Jun 20 14:38:50 2009 -0400
+
+    sets --work-tree so that adds work
+
+[33mcommit b06e7ff41ad95b6fe1dbd08df7530c9d5bf76840[m
+Author: Dave Copeland <davetron5000@gmail.com>
+Date:   Mon Jun 1 19:47:47 2009 -0400
+
+    a few lines on gems required for testing
+
+[33mcommit e976f76021da966fa332f0373794a43dc023b8be[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Wed May 13 15:54:49 2009 -0700
+
+    refactor more methods into git-ruby
+
+[33mcommit 88554a5d842e116938990d0a8091880a7111256b[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Thu Apr 23 15:44:47 2009 -0700
+
+    facilitate git proxying
+
+[33mcommit afe9c14974dca213906f4a365e13390e71565be1[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Mon Apr 20 17:12:14 2009 -0700
+
+    abstract all file system calls into git class
+
+[33mcommit 0826e1a0e1cd84ee1d0d6c907e1e9a5882ebc6de[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Apr 14 22:21:30 2009 -0700
+
+    update history and rakefile for 1.1.1
+
+[33mcommit 4ac4acab7fd9c7fd4c0e0f4ff5794b0347baecde[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Mar 31 09:54:51 2009 -0700
+
+    Regenerated gemspec for version 1.1.1
+
+[33mcommit 5071bf9fbfb81778c456d62e111440fdc776f76c[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Mar 31 09:54:40 2009 -0700
+
+    Version bump to 1.1.1
+
+[33mcommit 05372bffe2b60b0d1802f338551856221e0a89d2[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Mar 31 09:54:23 2009 -0700
+
+    exclude test dir from gem manifest
+
+[33mcommit ac8700fe97702bc13806a5bfea7a0e28f97b5f6b[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Sun Mar 29 21:07:22 2009 -0700
+
+    Regenerated gemspec for version 1.1.0
+
+[33mcommit 5bace1138462c9e40807ee542016fb4213eb49f8[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Sun Mar 29 21:07:11 2009 -0700
+
+    Version bump to 1.1.0
+
+[33mcommit 90c80e03485226933baf62f9ef842f8ebbf4b161[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Sun Mar 29 21:07:04 2009 -0700
+
+    update history for 1.1.0 release
+
+[33mcommit c02281a929bdd4d36186345f7c8a3accdabece92[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Sun Mar 29 21:06:11 2009 -0700
+
+    match version file to history
+
+[33mcommit 809025eaf61b22c2916a8eae59e42138f4cf9365[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Mar 3 16:14:54 2009 -0800
+
+    a_commit and b_commit are really a_blob and b_blob
+
+[33mcommit cdf9d1663db66971ac8fbc8d929de312bd4da55b[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Sat Feb 28 20:00:23 2009 -0800
+
+    update history
+
+[33mcommit 5a794503927cabf079bd1a800dcaf3d145ddea44[m
+Merge: 66984b3 32c9250
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Sat Feb 28 19:57:07 2009 -0800
+
+    Merge commit '32c925032560acb95905878af1d45384e0735c64' into next
+
+[33mcommit 66984b32e61a773790b9c9d0c96fd3ab9ab48bbe[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Sat Feb 28 19:52:03 2009 -0800
+
+    update history
+
+[33mcommit 37b967c251d8aa03d083e574e0b7fa339a2cc51b[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Sat Feb 28 19:51:23 2009 -0800
+
+    better comments for Repo#archive_to_file
+
+[33mcommit 81a066737231ad8204c53c0f2bc4dafc340df81f[m
+Merge: ce48ebc 73b32da
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Sat Feb 28 19:43:47 2009 -0800
+
+    Merge commit '73b32da6cb22abc88fbe7588be97dfc169da17c2' into next
+
+[33mcommit ce48ebc8f977f11d335e35a26f8536b1ea36ae4e[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Sat Feb 28 19:36:22 2009 -0800
+
+    update history
+
+[33mcommit fd39630afd589becacbe9226ae7246fb5d880c22[m
+Merge: 94d27ea 1ab3ab7
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Sat Feb 28 19:35:44 2009 -0800
+
+    Merge commit '1ab3ab760dc144d252299afb729269aa8d3a1c48' into next
+
+[33mcommit 94d27ea2b8c329828eedb71d96e7e3d1f65978ee[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Sat Feb 28 19:34:59 2009 -0800
+
+    update history
+
+[33mcommit bc9fb8b75e8c0f2e227ea6f963a0695e714261d1[m
+Merge: 007473c d34d530
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Sat Feb 28 19:28:15 2009 -0800
+
+    merge d34d53 and fix whitespace conflicts
+
+[33mcommit 007473c01a85885529a2d1d15b132ed9aedf6188[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Sat Feb 28 16:10:34 2009 -0800
+
+    update history
+
+[33mcommit b6556f138039b10d3973244124d9d843c4242c00[m
+Merge: 6bb41e4 cdb0d3e
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Sat Feb 28 15:57:04 2009 -0800
+
+    Merge branch 'js/master' into next
+
+[33mcommit 6bb41e4c1023495d76bae4dd5d839c8bc5af9092[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Sat Feb 28 15:14:10 2009 -0800
+
+    convert readme to markdown
+
+[33mcommit d34d5300bc1955d93928b6b2544fb79e89aaa06a[m
+Author: Voker57 <voker57@gmail.com>
+Date:   Tue Feb 17 23:55:18 2009 +0300
+
+    Added <=> method, needed for sorting tree
+
+[33mcommit dbfeb5ce9b997a15cd6d13e11dccd7c274f56855[m
+Author: Voker57 <voker57@gmail.com>
+Date:   Tue Feb 17 23:54:45 2009 +0300
+
+    Added two shortcut methods, for picking trees/blobs only
+
+[33mcommit a6015edab44b9c7e72fb381b6ca84e2232873469[m
+Author: Voker57 <voker57@gmail.com>
+Date:   Tue Feb 17 23:52:15 2009 +0300
+
+    Fixed gem builing
+
+[33mcommit cdb0d3e4d500b4636d09424ad2e6aa587e3208c7[m
+Author: Johan Sørensen <johan@johansorensen.com>
+Date:   Sat Feb 14 11:53:33 2009 +0100
+
+    Fixed test that relied on using git v1.6.0
+
+[33mcommit 5eaf21e9aa4b01ef69f689e70274c9ae2fab4309[m
+Author: Johan Sørensen <johan@johansorensen.com>
+Date:   Sat Feb 14 01:51:14 2009 +0100
+
+    Added a shortcut for commit_stats as Commit#stats
+
+[33mcommit 794dcb628b0ca6a3be35b5f4359946cb51e1f654[m
+Author: Johan Sørensen <johan@johansorensen.com>
+Date:   Fri Feb 13 13:09:34 2009 +0100
+
+    Further Ruby 1.9 compat; IO#getc can return a string in 1.9
+
+[33mcommit a17e8603006e231316d7bd20f47b6d39dcbe69d6[m
+Author: Johan Sørensen <johan@johansorensen.com>
+Date:   Fri Feb 13 12:17:38 2009 +0100
+
+    Rename the GitRuby Mmap class to FileWindow, since it's not really mmap'ed at
+    all (except for any OS level caching)
+
+[33mcommit 3838109f4a35f3d4ae4895f1ed45389ca30becc3[m
+Author: Johan Sørensen <johan@johansorensen.com>
+Date:   Fri Feb 13 12:12:33 2009 +0100
+
+    Add a #basename method to Submodule, Blob and Tree for retrieving the name
+    without the path
+
+[33mcommit 6ae7c960b10a57e37e753b866d4b4058831b76a8[m
+Author: Johan Sørensen <johan@johansorensen.com>
+Date:   Fri Feb 13 12:07:02 2009 +0100
+
+    Make Grit::Submodule grasp the concept of non-unix lineendings
+
+[33mcommit 2adfc816945c1ea2c0f147eef8e46dc3b8596b35[m
+Author: Johan Sørensen <johan@johansorensen.com>
+Date:   Fri Feb 13 12:03:38 2009 +0100
+
+    Added Repo#commit_deltas_from as a (fairly expensive and lazy) way of getting
+    the commits that differ between two different repositories
+
+[33mcommit ed76397875434609e4db6ececaad28cbe4af4845[m
+Author: Johan Sørensen <johan@johansorensen.com>
+Date:   Fri Feb 13 11:52:23 2009 +0100
+
+    do some mild shell escaping when running commands
+
+[33mcommit 645bd3ad5312bcb74a78796c391ae05dbb86394d[m
+Author: Johan Sørensen <johan@johansorensen.com>
+Date:   Fri Feb 6 11:50:40 2009 +0100
+
+    set an even lower timeout in the test_raises_on_slow_shell test, to make it
+    pass on machines faster than an Atari
+
+[33mcommit 85bc638ba44c7abff0a9ddbe0d4b71d67d748571[m
+Author: Johan Sørensen <johan@johansorensen.com>
+Date:   Fri Feb 6 11:50:19 2009 +0100
+
+    Fixed annoying ruby1.9 loadpath errors
+
+[33mcommit a78dabfad032b5a6d3713ffbeef6cebd893e7ead[m
+Author: Brian Chapados <chapados@sciencegeeks.org>
+Date:   Thu Feb 5 15:49:14 2009 -0800
+
+    Open binary files with the 'b' option to force binary string encoding (ASCII-8BIT)
+
+[33mcommit 4ab40474cf936043a3dc8d3b5ab9dccd9a5bfab1[m
+Author: Brian Chapados <chapados@sciencegeeks.org>
+Date:   Thu Feb 5 15:46:27 2009 -0800
+
+    Use [<string>] instead of <string>.to_a to create an array from a string
+    
+    String#to_a is not defined in Ruby 1.9
+
+[33mcommit 31a965cd15003482e19488f98ca2ce170f5e0c94[m
+Author: Brian Chapados <chapados@sciencegeeks.org>
+Date:   Thu Feb 5 15:40:14 2009 -0800
+
+    Define String#getord(offset) for accessing a single byte at a String offset
+    
+    Strings have changed significantly in Ruby 1.9.  The main issues related
+    to Grit are encodings, and the [] method.  The GitRuby implementation
+    currently uses code such as "buf[offset]" to access a byte (1 uint8_t byte in C)
+    of data. It would be nice to just use String#getbyte(offset), but this method is not
+    sensitive to the string encoding.  The default encoding for Ruby strings
+    is UTF-8, and I can't figure out how to make sure that all of the encodings
+    are correct such that String#getbyte will return the right value.
+    
+    In Ruby 1.8, String[offset] returns the integer code of the character at offset.
+    In Ruby 1.9, String[offset] returns the actual character at offset. To get the integer
+    value, we need to call String#ord, which returns the int code of the first char.
+    Thus, to get Ruby 1.8 behavior in Ruby 1.9, we would need to call String[offset].ord.
+    My solution for now is just to define a getord(offset) method in a version dependent
+    manner, and use this in place of String[offset].  It's somewhat hackish, but
+    I can't think of a better solution right now.
+
+[33mcommit 470cf968b64f66cdc9c2bdd5c90eb8eff99bfbc5[m
+Author: Brian Chapados <chapados@sciencegeeks.org>
+Date:   Wed Feb 4 13:23:57 2009 -0800
+
+    Remove trailing ':' from when clauses in case statement
+
+[33mcommit 85fea86e27999d2be873656b35b7dc316aa9a2c1[m
+Author: Chris Wanstrath <chris@ozmm.org>
+Date:   Fri Feb 13 19:38:05 2009 -0800
+
+    Make ls_tree ignore nils
+
+[33mcommit c0f65cf7522517c9b5341f2fcae884520a2cb468[m
+Author: Chris Wanstrath <chris@ozmm.org>
+Date:   Fri Feb 13 19:36:14 2009 -0800
+
+    Remove stray `puts`
+
+[33mcommit f2dd525a36b0ffc9a0f41099ad20bc7c564cfea9[m
+Author: Chris Wanstrath <chris@ozmm.org>
+Date:   Fri Feb 13 16:02:41 2009 -0800
+
+    Update version and History.txt
+
+[33mcommit d76b71c087eb3a5a2062575e944d43fd84fd9a53[m
+Author: Chris Wanstrath <chris@ozmm.org>
+Date:   Fri Feb 13 15:58:50 2009 -0800
+
+    Add Grit::Commit#to_patch
+
+[33mcommit ef447cf90958db135606e46add5ee0ad817aa5d6[m
+Author: Chris Wanstrath <chris@ozmm.org>
+Date:   Fri Feb 13 15:49:37 2009 -0800
+
+    Whoops - use the variable we already created for clarity
+
+[33mcommit b4e2886c270308e8b49a2fa3689369f476b8e9ef[m
+Author: Chris Wanstrath <chris@ozmm.org>
+Date:   Fri Feb 13 15:46:59 2009 -0800
+
+    Simplify tag test a tad
+
+[33mcommit a683a584c0056635d15955d4ff2a9566115974ce[m
+Author: Chris Wanstrath <chris@ozmm.org>
+Date:   Fri Feb 13 15:45:17 2009 -0800
+
+    Add packed-refs annotated tag support.
+
+[33mcommit 2c178130027e35fbd13db3d1a8ac48538bc8f603[m
+Author: Chris Wanstrath <chris@ozmm.org>
+Date:   Fri Feb 13 15:13:36 2009 -0800
+
+    Add support for annotated tags to Grit::Tag
+
+[33mcommit 62824a73d5b4d65e417470966d2a4de471d861cb[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Feb 10 22:55:11 2009 -0800
+
+    Regenerated gemspec for version 1.0.2
+
+[33mcommit fd82cce7bf4e26d15b3c529fef5f1581b46a152f[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Feb 10 22:55:00 2009 -0800
+
+    Version bump to 1.0.2
+
+[33mcommit dfd37f45a044d2cbcd1786ffa0a1e2a98c7fc2f2[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Feb 10 22:53:41 2009 -0800
+
+    dynamic version method
+
+[33mcommit c5849651251b6ae3ae2aa2e4743efac7b1e227cd[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Feb 10 22:48:18 2009 -0800
+
+    fix dates in history
+
+[33mcommit 4d4bca4abd71631a80faa37d5483a69935c09167[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Feb 10 16:35:28 2009 -0800
+
+    Regenerated gemspec for version 1.0.1
+
+[33mcommit 12a9eee718d78faa6b566d440a29987449c48322[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Feb 10 16:31:37 2009 -0800
+
+    add diff-lcs dep
+
+[33mcommit a3ea3a95e32acfba5f55893958f73c88f3a3c4c2[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Feb 10 16:29:25 2009 -0800
+
+    Version bump to 1.0.1
+
+[33mcommit 5fdd1d9970ee62ce20c0c5b33162d13eff2cb35a[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Thu Feb 5 14:44:42 2009 -0800
+
+    update summary and description meta
+
+[33mcommit 8f1f391fb1f063b60102e773872fd744e64b7c25[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Feb 3 16:18:20 2009 -0800
+
+    fix require statement in readme usage example
+
+[33mcommit b929c5c94f9497a4d90738a7cd23920215cccdf3[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Feb 3 16:15:26 2009 -0800
+
+    update install instructions
+
+[33mcommit 1ab3ab760dc144d252299afb729269aa8d3a1c48[m
+Author: Jos Backus <jos@catnook.com>
+Date:   Fri Jan 30 17:49:40 2009 -0800
+
+    Make the number of bytes to be read from git's stdout configurable.
+
+[33mcommit 1b15724a61edca3d52ec7cca1f21e3ef54cf6790[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Jan 27 21:18:43 2009 -0800
+
+    Regenerated gemspec for version 1.0.0
+
+[33mcommit 518385c5afba53957332119dd9fdf4980a779d6f[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Jan 27 21:18:02 2009 -0800
+
+    switch ot using Jeweler for packaging tasks, and up to version 1.0.0
+
+[33mcommit a26053925a22cb737638264b49ae837957689cbc[m
+Author: Chris Wanstrath <chris@ozmm.org>
+Date:   Tue Jan 13 16:58:18 2009 -0800
+
+    stricter method of guessing if the ref is a sha
+
+[33mcommit 73b32da6cb22abc88fbe7588be97dfc169da17c2[m
+Author: Antonin Hildebrand <antonin@hildebrand.cz>
+Date:   Sat Jan 10 03:15:49 2009 +0100
+
+    Repo.archive_to_file accepts extra parameters making plain zipping possible
+
+[33mcommit 734713bc047d87bf7eac9674765ae793478c50d3[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Fri Jan 2 18:32:33 2009 -0800
+
+    fixed refs handling, added gc auto, updated tests, removed superfluous head.rb
+
+[33mcommit d921970aadf03b3cf0e71becdaab3147ba71cdef[m
+Merge: 1c002dd 35cfb2b
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Thu Dec 11 15:08:43 2008 -0800
+
+    Merge commit 'phedders/rdocs'
+
+[33mcommit 1c002dd4b536e7479fe34593e72e6c6c1819e53b[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Thu Dec 11 14:58:32 2008 -0800
+
+    added some blame and merge stuff
+
+[33mcommit 35cfb2b795a55793d7cc56a6cc2060b4bb732548[m
+Author: Paul Hedderly <paul+git@mjr.org>
+Date:   Wed Dec 10 22:22:03 2008 +0000
+
+    Some rdoc changes
+
+[33mcommit 32c925032560acb95905878af1d45384e0735c64[m
+Author: Adam Keys <adam@therealadam.com>
+Date:   Wed Nov 26 12:15:20 2008 -0600
+
+    Calculate the net change for a particular diffstat
+
+[33mcommit 35d3ff576c20b4a26ab715a709465524db6d4154[m
+Author: Adam Keys <adam@therealadam.com>
+Date:   Wed Nov 26 10:06:21 2008 -0600
+
+    Don't split git logs that contain blank lines into two CommitStats.
+
+[33mcommit 12ba6a04c179d389700f94484a9b8e652b23acfd[m
+Author: Adam Keys <adam@therealadam.com>
+Date:   Tue Nov 25 23:31:18 2008 -0600
+
+    Make dealing with commit stats a little more pleasant.
+
+[33mcommit 0fd5b8841ec0d6c132df43b3f502b9701be00fe3[m
+Author: Adam Keys <adam@therealadam.com>
+Date:   Tue Nov 25 23:28:41 2008 -0600
+
+    Handle commit stats that summarize commits with binary changes.
+    
+    This regexp better handles numstats that look like this:
+    
+    1	2	features/support/env.rb
+    -	-	public/images/body.jpg
+    
+    Before, it would bonk on the hyphen and incorrectly assume the next line was a new commit.
+
+[33mcommit 1c3618887afb5fbcbea25b7c013f4e2114448b8d[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Fri Nov 7 13:47:59 2008 -0500
+
+    ignore *.gem
+
+[33mcommit 9b29157990e686e8325df165e66252e3f9e776a5[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Fri Nov 7 13:46:24 2008 -0500
+
+    add open3_detach to gemspec file list
+
+[33mcommit bd80d2e753cae1d637f5a74f2264a7c88b36b108[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Fri Nov 7 13:41:26 2008 -0500
+
+    up to 0.9.4
+
+[33mcommit 6e9433fa9a49e31f12369e6c19b45d92fc43812a[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Fri Nov 7 13:41:10 2008 -0500
+
+    update gemspec file list
+
+[33mcommit d1dfcd84c41b91cb3f8900eb36dbdfdbe52d6a73[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Fri Nov 7 13:40:15 2008 -0500
+
+    update readme
+
+[33mcommit f3cc40eeab3056bf93de96f01d4f16322664b46b[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Fri Nov 7 13:35:54 2008 -0500
+
+    digest is in stdlib
+
+[33mcommit 51a8711ec1f7aa95391ed579058267020c243bf0[m
+Merge: daaa569 3c9493f
+Author: PJ Hyett <pjhyett@gmail.com>
+Date:   Thu Oct 23 15:16:20 2008 -0700
+
+    Merge branch 'open3'
+
+[33mcommit daaa5698ccd7a958528ba3704521ff300f1ca747[m
+Merge: 6b42301 87d28f7
+Author: PJ Hyett <pjhyett@gmail.com>
+Date:   Thu Oct 23 15:14:44 2008 -0700
+
+    Merge branch 'master' of git@github.com:mojombo/grit
+
+[33mcommit 3c9493f71ca8b9d305b3e6cab1ede447f0e431a9[m
+Author: PJ Hyett <pjhyett@gmail.com>
+Date:   Thu Oct 23 15:14:35 2008 -0700
+
+    Require open3_detach for Ruby and open3 for JRuby
+
+[33mcommit 3e9b907357647e5e45b8d6f4651e512638b57e44[m
+Author: PJ Hyett <pjhyett@gmail.com>
+Date:   Thu Oct 23 15:12:43 2008 -0700
+
+    Patch popen3 so Process.detach is called if exception is thrown
+
+[33mcommit 5b4583d69b2ba0a00c2583090f3fd629c2778d6e[m
+Author: PJ Hyett <pjhyett@gmail.com>
+Date:   Thu Oct 23 15:10:59 2008 -0700
+
+    Use Open3 instead of Open4
+
+[33mcommit 6b42301fcbc9a9ca8a834900fe8f9245ffe745e2[m
+Author: PJ Hyett <pjhyett@gmail.com>
+Date:   Wed Oct 22 21:47:54 2008 -0700
+
+    just rescue the timeout errors, problem solved
+
+[33mcommit 77c8fe2d96398fa69d4b107334d608c3787216b8[m
+Author: PJ Hyett <pjhyett@gmail.com>
+Date:   Wed Oct 22 21:32:53 2008 -0700
+
+    only reraise timeout exceptions
+
+[33mcommit 87d28f740f1f794aafc3629095edc79489c259be[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Oct 21 09:47:51 2008 -0700
+
+    poetry mode a few lines
+
+[33mcommit 3913db86a1ca9ff7fc21a065fd6c1961184169a9[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Oct 21 09:46:04 2008 -0700
+
+    up git_timeout to 10
+
+[33mcommit 6571f70083aa192b043107768f47f7a326a2d0cb[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Oct 21 09:40:41 2008 -0700
+
+    more efficient commit count
+
+[33mcommit 6b86674364a7adf98fff10154db7fc706326271d[m
+Author: PJ Hyett <pjhyett@gmail.com>
+Date:   Mon Sep 8 10:46:24 2008 -0700
+
+    confirm sha is a string
+
+[33mcommit 21c8264ed44be2cc17c6c72be8f48c827a1cc384[m
+Author: PJ Hyett <pjhyett@gmail.com>
+Date:   Mon Sep 8 03:11:58 2008 -0700
+
+    raise exception instead of trying to proceed
+
+[33mcommit 2161be4def510dcb71da1b49cf09f053a93adbc5[m
+Author: PJ Hyett <pjhyett@gmail.com>
+Date:   Mon Sep 8 02:43:01 2008 -0700
+
+    verify string is a string
+
+[33mcommit d24cfd87fee7b6632e907b4441c388aa24a22c1e[m
+Author: PJ Hyett <pjhyett@gmail.com>
+Date:   Mon Sep 8 02:28:15 2008 -0700
+
+    bad sha handling
+
+[33mcommit 433c94bf8cc28d03fc0b695fe7214070b4e7cff9[m
+Author: PJ Hyett <pjhyett@gmail.com>
+Date:   Fri Sep 5 22:42:14 2008 -0700
+
+    handle empty arguments and bad shas
+
+[33mcommit 916aa314e3b360e44b48189d1267de5a3cd609a1[m
+Author: PJ Hyett <pjhyett@gmail.com>
+Date:   Fri Sep 5 20:39:03 2008 -0700
+
+    remove more test warnings
+
+[33mcommit ab9c27e791f14584c2cd0d849769b46dd8208388[m
+Merge: 1c74f3c 495678f
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Thu Sep 4 19:18:56 2008 -0700
+
+    Merge branch 'master' of git://github.com/pjhyett/grit into pjhyett/master
+
+[33mcommit 495678f7e0ca4b42c3cea2b46f07027ff95c4625[m
+Author: PJ Hyett <pjhyett@gmail.com>
+Date:   Thu Sep 4 18:50:54 2008 -0700
+
+    Remove Process.kill and trap(CHLD), users can handle their own process recovery to suit their needs
+
+[33mcommit 1c74f3c9420625e8059fee334db46499ea8c20ac[m
+Merge: 26d60e6 a3f37a0
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Thu Sep 4 18:31:05 2008 -0700
+
+    Merge branch 'master' of git://github.com/pjhyett/grit into pjhyett/master
+
+[33mcommit 26d60e6d73e641a471e901e9a2776654d11b39c4[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Thu Sep 4 18:30:27 2008 -0700
+
+    fix submodule config parsing to deal with arbitrary submodule names
+
+[33mcommit a3f37a04adfa300b1d3aa7511312f1087d409ea6[m
+Author: PJ Hyett <pjhyett@gmail.com>
+Date:   Tue Sep 2 13:43:54 2008 -0700
+
+    eliminate ivar uninitialized warnings
+
+[33mcommit a9e63fb3cab725456ea27778eb343ba72c204335[m
+Merge: 76cd39a a6b444f
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Fri Aug 29 15:16:06 2008 -0700
+
+    merge and resolve schacon/master
+
+[33mcommit a6b444f570558a5f31ab508dc2a24dc34773825f[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Fri Aug 29 10:55:31 2008 -0700
+
+    dammit, this is the second time this has reverted
+
+[33mcommit 76cd39a436ba2d8d83e38d4e05eac348ef2a7067[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Fri Aug 29 01:18:03 2008 -0700
+
+    add submodule detection
+
+[33mcommit 49d77f72783e4e9f12d1bbcacc45e7a15c800240[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Tue Aug 26 10:09:45 2008 -0700
+
+    modified index to create refs/heads if it is not there
+
+[33mcommit 9764edd90cf9a423c9698a2f1e814f16f0111238[m
+Author: Hans Engel <engel@engel.uk.to>
+Date:   Sat Aug 23 11:00:10 2008 -0700
+
+    Add diff-lcs dependency
+
+[33mcommit e1ba1e3ca83d53a2f16b39c453fad33380f8d1cc[m
+Author: Hans Engel <engel@engel.uk.to>
+Date:   Sat Aug 23 09:51:15 2008 -0700
+
+    Add dependency for Open4
+
+[33mcommit 0f87b4d9020fff756c18323106b3fd4e2f422135[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Fri Aug 22 14:51:56 2008 -0700
+
+    merged recent changes:
+    * accepts relative alt paths
+    * orders tree writes properly
+    * can init a git repo
+
+[33mcommit f0ce7d5979dfb0f415799d086e14a8d2f9653300[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Mon Aug 11 10:05:57 2008 -0700
+
+    updated the Manifest file
+
+[33mcommit 6446306daa17f3a5a63f3349fbe9a0d133db2596[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Sun Aug 10 15:04:59 2008 -0700
+
+    fixed alternates to accept relative paths and changed fixtures
+
+[33mcommit 8fcb2081e8f6a983bd6f194da84064ebed75ecb3[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Thu Aug 7 15:35:31 2008 -0700
+
+    added sha() def to commit object
+
+[33mcommit 4a904d796030639b0b686cf58423d71e56d65e1c[m
+Merge: 81a3e0d dfeffce
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Wed Aug 6 11:46:51 2008 -0700
+
+    Merge branch 'idx2'
+
+[33mcommit 81a3e0d4a8bae82f9b09a67108e4345a2a83f652[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Wed Aug 6 11:45:51 2008 -0700
+
+    updated packfile code to recognize index v2
+
+[33mcommit dfeffcef039cb1b1682baadba39d82b4c6f8470d[m
+Merge: c615d80 23f4ecf
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Thu Jul 31 13:47:19 2008 -0700
+
+    merged in bryces changes and fixed some testing issues
+
+[33mcommit c615d80aa8e72f2450ccfa399e6957021ae38024[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Thu Jul 31 13:25:50 2008 -0700
+
+    fixed a log issue
+
+[33mcommit 23f4ecfe98897872f2522bcee52733724872dfa9[m
+Author: Bryce Kerley <bryce@worldmedia.net>
+Date:   Thu Jul 31 15:52:25 2008 -0400
+
+    Clarify how to get a full count out of Repo#commits
+
+[33mcommit 9d6d2502851ff2298636fa92912972f059110acc[m
+Merge: decfe7b cec36f7
+Author: Bryce Kerley <bryce@worldmedia.net>
+Date:   Thu Jul 31 15:37:07 2008 -0400
+
+    Appropriate time-zone test fix from halorgium
+
+[33mcommit decfe7bbc9c839bf8cef9734f7c604e3688d9ff6[m
+Author: Bryce Kerley <bryce@worldmedia.net>
+Date:   Thu Jul 31 13:50:44 2008 -0400
+
+    fixed manifest and grit.rb to make correct gemspec
+
+[33mcommit cd27d577f73bcf4b2405c5959bdf7db75b8da314[m
+Author: Bryce Kerley <bryce@worldmedia.net>
+Date:   Thu Jul 31 11:52:45 2008 -0400
+
+    added lib/grit/commit_stats.rb to the big list o' files
+    
+    somebody please tell me there's an automatic way to generate this list
+
+[33mcommit 823a9d9b70367cb72af5ebba9a030924c48791fe[m
+Author: Bryce Kerley <bryce@worldmedia.net>
+Date:   Thu Jul 31 11:44:54 2008 -0400
+
+    cleared out errors by adding in Grit::Git#run method
+
+[33mcommit 4eb3bf067d9292d8dd6d9075bc25a6579b13febe[m
+Merge: ba23640 d065e76
+Author: Bryce Kerley <bryce@worldmedia.net>
+Date:   Thu Jul 31 11:39:48 2008 -0400
+
+    resolved merge conflicts, hopefully amicably
+
+[33mcommit ba23640e001a0a00957deece46c4450f6c0e6f46[m
+Author: Bryce Kerley <bryce@worldmedia.net>
+Date:   Wed Jul 30 17:54:56 2008 -0400
+
+    Fix CommitDb errors in test (was this the right fix?)
+
+[33mcommit 4d8873e6fa0ef50f40e9fc49d9cf322d034a74d3[m
+Author: Bryce Kerley <bryce@worldmedia.net>
+Date:   Wed Jul 30 17:48:48 2008 -0400
+
+    test_commit no longer fails if you're not in PDT
+
+[33mcommit b3285ad166fa518890190dc5ce513642018125d1[m
+Author: Bryce Kerley <bryce@worldmedia.net>
+Date:   Wed Jul 30 17:29:19 2008 -0400
+
+    Use the appropriate method to find a first occurrence
+
+[33mcommit 44dda6cbd7e562ca04db8eedfbbbdcc01ef7a9ad[m
+Author: Bryce Kerley <bryce@worldmedia.net>
+Date:   Wed Jul 30 16:46:30 2008 -0400
+
+    more cleanly accept separate options for initializing a bare repo
+
+[33mcommit 839ba9fd8e286fc98b12fde7c76620e3fc4c61e4[m
+Author: Bryce Kerley <bryce@worldmedia.net>
+Date:   Wed Jul 30 16:27:09 2008 -0400
+
+    needed to be able to ask Repo.new to work with a bare repo
+
+[33mcommit d065e7601ce78c015e2a82f51efcd71f438a12aa[m
+Author: Rob Sanheim <rsanheim@gmail.com>
+Date:   Mon Jul 28 11:55:21 2008 -0400
+
+    empty commit to push project to runcoderun
+
+[33mcommit 791ec6b35164473e80d10d5af89ef879e3b9f212[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Fri Jul 18 12:02:17 2008 -0700
+
+    updated grit gemspec
+
+[33mcommit 756a947ccf1b21891939badefc58f758d6bab264[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Fri Jul 18 11:42:21 2008 -0700
+
+    including code from github updates
+
+[33mcommit 3fa3284cac1accfe1753e24b0a839548bff2d2ac[m
+Author: Rob Sanheim <rsanheim@gmail.com>
+Date:   Sat Jul 19 14:38:04 2008 -0400
+
+    whitespace
+
+[33mcommit d01cffd9c5b4b580450ae830c117632641573303[m
+Author: Rob Sanheim <rsanheim@gmail.com>
+Date:   Sat Jul 19 08:40:20 2008 -0400
+
+    whitespace
+
+[33mcommit a0e4a3d417aa68c881fc28ef81d8821698ed2600[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Fri Jul 18 12:02:17 2008 -0700
+
+    updated grit gemspec
+
+[33mcommit 7569d0dca47379123c3c72ffb5b96202b5f8d450[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Fri Jul 18 11:42:21 2008 -0700
+
+    including code from github updates
+
+[33mcommit c7f1990597b63aeded4f81ebd3fb29e0aded5606[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Tue Jul 8 20:32:35 2008 -0700
+
+    pulled in changes from github
+
+[33mcommit 7c74272b85e60634a4f52d715093da434dd29475[m
+Author: Rob Sanheim <rsanheim@gmail.com>
+Date:   Mon Jul 7 12:01:41 2008 -0400
+
+    oops, update version here too
+
+[33mcommit 13f8cc35ffe1e8f6edad51fd198e8d2076fd2a21[m
+Author: Rob Sanheim <rsanheim@gmail.com>
+Date:   Mon Jul 7 11:55:41 2008 -0400
+
+    push 0.8.3
+
+[33mcommit 06bae5adf344c28a9c904dacb007296e8809ca9f[m
+Author: Rob Sanheim <rsanheim@gmail.com>
+Date:   Mon Jul 7 11:54:43 2008 -0400
+
+    capture stderr and log it if debug is true when running commands
+
+[33mcommit 0b5bedf1b60686caaa9e7e50f904812d02adcfb9[m
+Author: Rob Sanheim <rsanheim@gmail.com>
+Date:   Mon Jun 30 23:21:43 2008 -0400
+
+    update history
+
+[33mcommit a92a84f8cafa92ad576b2c9622bf48163b6afea4[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Sat Jun 28 14:40:07 2008 -0700
+
+    patched bare rev-list to use FileIndex (for paging commit count)
+    FileIndex now understands tree changes
+    makes GitHub use almost no git calls, and can up max list over 30
+
+[33mcommit 2cb492fffeaed93cf791d36dc60639c488b989c0[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Sat Jun 28 11:52:52 2008 -0700
+
+    folded file_index into git-ruby
+
+[33mcommit c87612bc84c95ba9df17674d911dde10f34fefaa[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Sat Jun 28 11:36:59 2008 -0700
+
+    added library for a simple index that helps with blame-tree type operations
+
+[33mcommit d40e1f082ad561ff724a729775e8bfc8c8e113b6[m
+Author: Rob Sanheim <rsanheim@gmail.com>
+Date:   Fri Jun 27 22:22:41 2008 -0400
+
+    some docs
+
+[33mcommit ef8a23cd8a0b6be67e81c2cd36fe538636771db7[m
+Author: Rob Sanheim <rsanheim@gmail.com>
+Date:   Fri Jun 27 22:18:20 2008 -0400
+
+    update gemspec to include the newly added files to manifest
+
+[33mcommit 15dd34769eb57a95b321f4ebb4da7574842143d1[m
+Author: Rob Sanheim <rsanheim@gmail.com>
+Date:   Fri Jun 27 22:13:10 2008 -0400
+
+    add missing files to manifest; add grit test
+
+[33mcommit 3dabb6afb778e524a0cd0b966aba24e70d247b45[m
+Author: Rob Sanheim <rsanheim@gmail.com>
+Date:   Fri Jun 27 22:07:29 2008 -0400
+
+    allow sending debug messages to a user defined logger if provided; tests for it
+
+[33mcommit eac1c3759915b8fa7bfd082d07dabd6f9768a4a7[m
+Author: Rob Sanheim <rsanheim@gmail.com>
+Date:   Fri Jun 27 21:26:56 2008 -0400
+
+    pull out the date in this assertion and compare as xmlschemaw, to avoid breakage due to time zone dependancy
+
+[33mcommit 0a7d387efcc4e963a02d1ba9cd6a4a42c21c27df[m
+Author: cho45 <cho45@lowreal.net>
+Date:   Sun May 25 13:41:06 2008 +0900
+
+    Removed debug print.
+
+[33mcommit 4d6b69ccc5b9566e90489709c392272c13264727[m
+Author: cho45 <cho45@lowreal.net>
+Date:   Sat May 24 01:40:06 2008 +0900
+
+    Fixed to close opened file description.
+
+[33mcommit 27c0e8af275f05aa168ef36daf5ae3c9ca3549b8[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Thu Jun 26 11:23:57 2008 -0700
+
+    updated git-ruby so it doesnt call rev_list natively with no options
+
+[33mcommit a480cf631d23ed23e4e57c8779a6c79b57882b01[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Thu Jun 26 10:26:23 2008 -0700
+
+    added a single call blame-tree - pure ruby is not fast enough yet
+    improved pure ruby blame-tree performance
+    added option to have packfiles pre-cached
+
+[33mcommit 695b07364eb61e9a008d31c9d77c17210be11c10[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Tue Jun 24 22:16:45 2008 -0700
+
+    initial working version, but it is much, much too slow
+
+[33mcommit d12e68b82099ed241ef523bb94e1c1ca8d8484f4[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Tue Jun 24 12:18:07 2008 -0700
+
+    updated refs to not include directories (duh), fixed unit tests to not expect Git calls
+    modified initilization method to accept flag to force it to see a bare dir
+
+[33mcommit dfcfdd4847d318643449c81cd4891b01e3a50e09[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Tue Jun 24 09:27:20 2008 -0700
+
+    got the diff to work properly and tested with actual github usage
+    - am outputing big warnings of git usage to stdout for debugging
+
+[33mcommit 2d22f889b5f1419ea02debbe29a8909cece52f77[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Tue Jun 24 09:03:21 2008 -0700
+
+    added a pure-ruby alternative to diff
+    passed rev-list through if --skip == 0, which is most of the time
+
+[33mcommit 724b60289cec240d6fada7304832c111274315a2[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Sat Jun 21 16:19:30 2008 -0700
+
+    same as before - opening even fewer files
+
+[33mcommit 8d1f67e06372f165a3108f151f290b1fa321096c[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Sat Jun 21 16:03:51 2008 -0700
+
+    duh - was opening the same file twice in a nested call - that cant be good
+
+[33mcommit 8e17215a0c0216ffbdb35e49b3e5e80d5807a096[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Sat Jun 21 15:51:42 2008 -0700
+
+    removed debugging
+
+[33mcommit e7edb46e20ed619076530e7624c3cd92751fd4bd[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Sat Jun 21 15:50:02 2008 -0700
+
+    testing out filehandle refactoring - may be quite a bit slower though
+
+[33mcommit f3ddb01c8f9555c9b3b32ce1e180f4f9ada0261f[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Fri Jun 20 21:03:47 2008 -0700
+
+    updated rev-list to accept a range, too
+
+[33mcommit 4d9c7bed11d3714abf2e1aab206cbf6af64a6405[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Fri Jun 20 16:19:10 2008 -0700
+
+    added rev-list back into the git-ruby overrides
+
+[33mcommit 59e9a228962b75b15d7df69cd54c3839b107f209[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Fri Jun 20 09:46:56 2008 -0700
+
+    fixed ls_tree to take paths properly
+
+[33mcommit 6a9f5d87c437434cbf91530904b6dcd3eded82b0[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Thu Jun 19 17:35:09 2008 -0700
+
+    ls-tree recursive path search works now
+
+[33mcommit e1c6d41cc6781bd976d4502ccff4c2762bfa89df[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Thu Jun 19 16:10:52 2008 -0700
+
+    fixed deep path ls-tree
+
+[33mcommit e9b9a0f7e79381b5911c5b3de1ab6febece43b9e[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Thu Jun 19 15:40:18 2008 -0700
+
+    added commit_stats stuff
+
+[33mcommit f9dafa9f767d7a75cb4f8c3d94586cae9f6e3a70[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Thu Jun 19 15:36:35 2008 -0700
+
+    added code extracted from Gist work
+
+[33mcommit a49b96b339c525d7fd455e0ad4f6fe7b550c9543[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Thu May 29 15:56:41 2008 -0700
+
+    added examples
+
+[33mcommit 8f19810374686ad23dd63342b08d4ad1e65204c4[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Thu May 29 15:16:16 2008 -0700
+
+    rewrote the index implementation to write in pure ruby, which both speeds things up and deals with content much better
+
+[33mcommit 28f28c504f3ebb647dadd5d504aaf8133aecadd9[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Thu May 29 11:33:09 2008 -0700
+
+    added some simple write ops : add, remove, commit
+
+[33mcommit 1535929b529617192aedeb41ed0373c886bf754e[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Thu May 29 10:29:59 2008 -0700
+
+    bunch of changes
+
+[33mcommit f9781218b4b379b1ca07f05a121f0e37d66864e6[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Sat Apr 19 16:37:16 2008 -0700
+
+    bunch of the log stuff is fixed - added benchmarks
+
+[33mcommit 548a8aa82ffbb08940499f3d3227a9fa2a9e0ae5[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Sat Apr 19 16:11:51 2008 -0700
+
+    dude - way faster
+
+[33mcommit 1aefd1f610ac650d616ec77f8dbcda5ec5e40171[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Sat Apr 19 15:04:34 2008 -0700
+
+    memcached - kinda slow
+
+[33mcommit b35bf9e0dad0044cd0c3dc88ab434c02545998fd[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Sat Apr 19 14:17:32 2008 -0700
+
+    more workin
+
+[33mcommit a8d41298591ed7bc88a1a7740852a1197ca6e5da[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Sat Apr 19 10:48:54 2008 -0700
+
+    rearranged and commented the repository GitRuby file
+
+[33mcommit d95b504d8ea051fa900ab2a60b58e2b6f9d4a83a[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Fri Apr 18 17:22:33 2008 -0700
+
+    small bugfix
+
+[33mcommit b436da37de085181db0014e46b2ccc72bed2335a[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Fri Apr 18 17:04:16 2008 -0700
+
+    added pure ruby ls-tree support, too
+
+[33mcommit 4a955d613bbd7da33b8169555da3973ad8420360[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Fri Apr 18 16:37:05 2008 -0700
+
+    added the rest of the test git files
+
+[33mcommit f3a24ae3716ff13ce7268c4ecc030662221ddfc5[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Fri Apr 18 16:27:08 2008 -0700
+
+    added a pure-ruby git library and converted the cat_file commands to use it
+
+[33mcommit 9db28e5a65b358bf828bbcef263949324036dc0f[m
+Author: Scott Chacon <schacon@gmail.com>
+Date:   Fri Apr 18 16:26:07 2008 -0700
+
+    added a git directory to the testing dir for current and future testing
+    
+    sorry the directory is so large, but I wanted to use a real one and this
+    was easier than anything else.  It's not huge, but it is bigger than it
+    really needs to be.
+
+[33mcommit 5987655432d4c31546007754c1134269f6ead5c7[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Wed Apr 30 22:03:18 2008 -0700
+
+    proof of concept for commits to a bare repo
+
+[33mcommit 3bf0dc0bb64f5abd00300c7a07cbedcb75f65f1a[m
+Author: Tim Dysinger <tim@dysinger.net>
+Date:   Thu Apr 24 10:39:40 2008 -1000
+
+    Updated manifest.txt to include new ref & remote classes
+
+[33mcommit a1b2498e1161b1eb831fd2519bca054f88030502[m
+Author: Tim Dysinger <tim@dysinger.net>
+Date:   Thu Apr 24 10:39:08 2008 -1000
+
+    added refs super class for tag & head + added remote subclass
+
+[33mcommit b778d456672ec74eba6eaab5439a144b41e0f61b[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Thu Apr 24 17:54:07 2008 -0700
+
+    up to 0.8.1
+
+[33mcommit 11c3d028d1f66f43d7c3f5d4ae6ff5377119af97[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Thu Apr 24 17:42:58 2008 -0700
+
+    grit gems are now exclusively available via gems.github.com!
+
+[33mcommit c94f0bdd4b90855669d13ae0faa4af51cde21a56[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Thu Apr 24 16:20:43 2008 -0700
+
+    a few more little gemspec fixes
+
+[33mcommit 92f6075f573f625b84883035e00d6d1da108ae73[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Thu Apr 24 16:17:49 2008 -0700
+
+    gemification updates
+
+[33mcommit a2db1039174aae39e60c182de85a12bf67c34518[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Thu Apr 24 15:01:29 2008 -0700
+
+    fix repo browse address
+
+[33mcommit bbedbdbebbe8c2549e92a87d35643a0721ebd1b8[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Thu Apr 24 12:23:15 2008 -0700
+
+    fix gemspec
+
+[33mcommit 3c1e3d79440e61fac88ce9bde84e5c6b6cbdade2[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Thu Apr 24 12:19:23 2008 -0700
+
+    up to 0.8.0 and add gemspec
+
+[33mcommit cec36f7e7897e854157881ca3af53e9a498679f8[m
+Author: Tim Carey-Smith <tim@spork.in>
+Date:   Thu Apr 24 12:19:13 2008 +1200
+
+    Fix the to_hash test to run in US/Pacific time
+
+[33mcommit 2d3acf90f35989df8f262dc50beadc4ee3ae1560[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Sat Apr 12 19:39:01 2008 -0700
+
+    ignore errors from SIGCHLD on trap
+
+[33mcommit 5e3ee1198672257164ce3fe31dea3e40848e68d5[m
+Merge: 30e367c 420eac9
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Sat Apr 12 19:35:48 2008 -0700
+
+    Merge branch 'master' of git://github.com/dustin/grit
+
+[33mcommit 420eac97a826bfac8724b6b0eef35c20922124b7[m
+Author: Dustin Sallings <dustin@spy.net>
+Date:   Tue Apr 1 10:52:03 2008 -0700
+
+    Added a method for getting the current branch.
+
+[33mcommit 30e367cef2203eba2b341dc9050993b06fd1e108[m
+Author: Chris Wanstrath <chris@ozmm.org>
+Date:   Sun Mar 30 20:50:08 2008 -0700
+
+    timeout code and tests
+
+[33mcommit 5a0943123f6872e75a9b1dd0b6519dd42a186fda[m
+Author: Chris Wanstrath <chris@ozmm.org>
+Date:   Sun Mar 30 16:31:20 2008 -0700
+
+    add timeout protection to grit
+
+[33mcommit e1193f8092ae9ece0ba336b7aa4c29dcde78777f[m
+Author: Chris Wanstrath <chris@ozmm.org>
+Date:   Sat Mar 29 20:31:23 2008 -0700
+
+    support for heads with slashes in them
+
+[33mcommit d6016bc9fa3950ad18e3028f9d2d26f831061a62[m
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Mar 25 21:32:29 2008 -0700
+
+    require time for xmlschema
+
+[33mcommit 11d191ef3f04012a78222cb118619c16d5581886[m
+Merge: f11ceb3 ad44b88
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Mar 25 21:25:12 2008 -0700
+
+    Merge branch 'defunkt' into local
+
+[33mcommit f11ceb37cbd72b8c7627aa9e2a7b8dbcbf10d107[m
+Merge: 28e7a1d ccc8ba2
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Mar 25 19:55:21 2008 -0700
+
+    Merge branch 'master' of git://github.com/halorgium/grit into halorgium
+
+[33mcommit 28e7a1d3dd172a8e757ff777ab205a538b80385e[m
+Merge: be3178e 4aa3410
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Mar 25 19:51:06 2008 -0700
+
+    Merge branch 'master' of git://github.com/evilchelu/grit into evilchelu
+
+[33mcommit be3178ec3bf47bbdc69bd6023443fb6c4ac5385c[m
+Merge: 2282517 472e4f3
+Author: Tom Preston-Werner <tom@mojombo.com>
+Date:   Tue Mar 25 19:47:30 2008 -0700
+
+    Merge branch 'master' of git://github.com/kamal/grit into kamal
