@@ -1,5 +1,5 @@
 == TODO ==
-* change test
+* change test 1
 * Add remote branch references (Grit::Remote)
 * Add status - what is modified, staged
 
